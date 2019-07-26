@@ -1,0 +1,24 @@
+{
+  "name": "what-script",
+  "version": "0.0.1",
+  "description": "CLI tool to quickly check which scripts are available in package.json",
+  "main": "index.js",
+  "scripts": {
+  },
+  "bin": {
+    "what-script": "./index.js",
+    "ws": "./index.js"
+  },
+  "author": "oherst",
+  "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/oherst/what-scripts.git"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "minimist": "^1.2.0",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {}
+}
