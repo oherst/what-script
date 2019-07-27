@@ -1,6 +1,6 @@
 {
   "name": "what-script",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI tool to quickly check which scripts are available in package.json",
   "main": "index.js",
   "scripts": {
