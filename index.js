@@ -11,7 +11,7 @@ function getScripts() {
 
     return parsed.scripts;
   } catch {
-    console.log(chalk.red("error: package.json not found"));
+    console.log(chalk.red("error: package.json not found or cannot be parsed"));
   }
 }
 
